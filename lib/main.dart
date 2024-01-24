@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       title: 'Películas',
       initialRoute: '/',
       routes: {
-        '/': (BuildContext context) => const HomePage(),
+        '/': (BuildContext context) => HomePage(),
       },
     );
   }
