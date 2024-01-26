@@ -69,4 +69,12 @@ class Movie {
       return 'https://image.tmdb.org/t/p/w500$posterPath';
     }
   }
+
+  getBackgroundImg() {
+    if (posterPath == null) {
+      return 'https://cdn.vectorstock.com/i/preview-1x/48/06/image-preview-icon-picture-placeholder-vector-31284806.jpg';
+    } else {
+      return 'https://image.tmdb.org/t/p/w500$backdropPath';
+    }
+  }
 }

@@ -5,7 +5,7 @@ import 'package:movies_app/src/models/movie_model.dart';
 import 'package:http/http.dart' as http;
 
 class MoviesProvider {
-  final String _accessToken = '**';
+  final String _accessToken = '';
   final String _url = 'api.themoviedb.org';
   final String _language = 'es-ES';
   int _popularsPage = 0;
