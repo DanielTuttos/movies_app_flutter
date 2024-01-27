@@ -13,6 +13,7 @@ class Movies {
 }
 
 class Movie {
+  late String uniqueId;
   late int voteCount;
   late int id;
   late bool video;
